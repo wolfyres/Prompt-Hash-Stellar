@@ -46,6 +46,26 @@ npm run build
 - Document security-sensitive assumptions, especially around signing, decryption, and key handling.
 - Avoid introducing hidden off-chain dependencies for contract-critical flows.
 
+
+📝 Validation Checklist
+
+## Before submitting a Pull Request, ensure you run the following commands locally:
+
+    Frontend: npm run lint && npm test
+
+    Backend: npm run lint && npm test
+
+    Contracts: cargo test
+
+
+📸 UI Evidence Requirements
+
+## For any changes affecting the User Interface:
+
+    Must include a screenshot of the change.
+
+    Preferred: A short GIF or Loom recording for complex flows (e.g., wallet connection or purchase tracking).
+
 ## Pull Request Guidelines
 
 Include:
