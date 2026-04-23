@@ -47,9 +47,9 @@ npm run build
 - Avoid introducing hidden off-chain dependencies for contract-critical flows.
 
 
-📝 Validation Checklist
+## 📝 Validation Checklist
 
-## Before submitting a Pull Request, ensure you run the following commands locally:
+   Before submitting a Pull Request, ensure you run the following commands locally:
 
     Frontend: npm run lint && npm test
 
@@ -58,9 +58,9 @@ npm run build
     Contracts: cargo test
 
 
-📸 UI Evidence Requirements
+## 📸 UI Evidence Requirements
 
-## For any changes affecting the User Interface:
+   For any changes affecting the User Interface:
 
     Must include a screenshot of the change.
 
