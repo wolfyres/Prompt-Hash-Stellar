@@ -54,3 +54,4 @@ jobs:
       - name: Build backend
         if: steps.scripts.outputs.has_build == 'true'
         run: npm run build --if-present
+        
